@@ -13,5 +13,7 @@ Whenever we output a game right now it'll show up using the to_s method from Obj
 
 
 class ConsoleGame < Game
-
+  def to_s
+    "#{self.name} - #{self.system}"
+  end
 end
