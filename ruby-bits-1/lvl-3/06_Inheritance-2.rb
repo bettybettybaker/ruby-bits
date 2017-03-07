@@ -9,7 +9,7 @@ For our ArcadeGame class, we'll also want to track the weight of these giant cab
 =end
 
 
-#################### SOLUTION ####################
+#################### PROBLEM ####################
 
 
 class ArcadeGame < Game
