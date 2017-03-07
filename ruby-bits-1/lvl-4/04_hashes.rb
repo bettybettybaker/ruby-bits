@@ -13,7 +13,7 @@ Using ActiveSupport, return the difference between Mario's favorite games and Lu
 
 
 def difference_between(player1, player2)
-
+  player1.diff(player2)
 end
 
 mario_favorite = {
