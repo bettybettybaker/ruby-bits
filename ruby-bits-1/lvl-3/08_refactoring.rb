@@ -9,7 +9,7 @@ Our to_s method will come in very handy. Whenever we need to output a game, rath
 =end
 
 
-#################### PROBLEM ####################
+#################### SOLUTION ####################
 
 
 class Game
@@ -27,16 +27,12 @@ class Game
   end
 
   def description
-    "#{self.name} was released in #{self.year}."
+    "#{self} was released in #{self.year}."
   end
 end
 
 class ConsoleGame < Game
   def to_s
     "#{self.name} - #{self.system}"
-  end
-
-  def description
-    "#{self.name} - #{self.system} was released in #{self.year}."
   end
 end
