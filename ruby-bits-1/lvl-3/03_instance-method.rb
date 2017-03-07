@@ -9,7 +9,7 @@ We can initialize our Library with an array of games, but the only way to add ga
 =end
 
 
-#################### PROBLEM ####################
+#################### SOLUTION ####################
 
 class Library
   attr_accessor :games
@@ -24,4 +24,9 @@ class Library
     end
     false
   end
+
+  def add_game(game)
+    games << game
+  end
+
 end
