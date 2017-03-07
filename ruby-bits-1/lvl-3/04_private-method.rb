@@ -9,7 +9,7 @@ Things are looking good! We're able to use our Library class to store our games 
 =end
 
 
-#################### PROBLEM ####################
+#################### SOLUTION ####################
 
 class Library
   attr_accessor :games
@@ -27,5 +27,11 @@ class Library
 
   def add_game(game)
     games << game
+    log("Added game info #{game}")
+  end
+
+  private
+  def log(info)
+    puts info
   end
 end
