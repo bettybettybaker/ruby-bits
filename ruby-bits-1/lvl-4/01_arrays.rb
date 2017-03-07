@@ -9,11 +9,11 @@ Implement the last_games method below to return the games from the passed index 
 =end
 
 
-#################### PROBLEM ####################
+#################### SOLUTION ####################
 
 
 def last_games(games, index)
-
+  games.from(1)
 end
 games = ["Super Mario Bros.", "Contra", "Metroid", "Mega Man 2"]
 puts last_games(games, 0)
