@@ -9,11 +9,11 @@ Implement the anniversary method below to return a DateTime representing the giv
 =end
 
 
-#################### PROBLEM ####################
+#################### SOLUTION ####################
 
 
 def anniversary(game, years)
-
+  game[:release].advance(years: years)
 end
 
 game = {
