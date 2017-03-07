@@ -21,7 +21,8 @@ class Library
 
   def has_game?(search_name)
     for game in games
-      return true if game.name == search_name
+      return true if game. == game
     end
     false
   end
+end
