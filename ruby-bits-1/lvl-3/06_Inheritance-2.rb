@@ -9,11 +9,16 @@ For our ArcadeGame class, we'll also want to track the weight of these giant cab
 =end
 
 
-#################### PROBLEM ####################
+#################### SOLUTION ####################
 
 
 class ArcadeGame < Game
   attr_accessor :weight
+
+  def initialize(name, options={})
+    super
+    self.weight = options[:weight]
+  end
 end
 class ConsoleGame < Game
 end
