@@ -11,4 +11,9 @@ Our game class is getting a little overloaded trying to handle both console game
 
 #################### SOLUTION ####################
 
-# Blank terminal given
+
+class ArcadeGame < Game
+end
+
+class ConsoleGame < Game
+end
